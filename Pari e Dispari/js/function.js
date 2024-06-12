@@ -1,3 +1,5 @@
+
+// verifica se una parola è palindroma
 function verificaPalindroma() {
 
     // prendiamo la parola inserita dall'utente e inseriamola in una variabile
@@ -15,4 +17,15 @@ function verificaPalindroma() {
     }
 
     console.log(parola, parolaInversa);
+}
+
+
+// verifica se un numero è pari o dispari
+function isPari(num) {
+  return num % 2 === 0;
+}
+
+// Genera un numero casuale tra 1 e 5
+function generaNumeroCasuale(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
 }
