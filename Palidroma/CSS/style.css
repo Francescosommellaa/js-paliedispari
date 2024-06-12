@@ -5,3 +5,42 @@
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    justify-content:center;
+    height: 100vh;
+    color: #fff;
+}
+
+body {
+    background-color: #000;
+}
+
+#inputParola {
+    padding: 0.8em;
+    width: 60%;
+    text-align: center;
+    margin: 1em;
+    font-size: 16px;
+    border-radius: 12px;
+    background-color: #ffffff1c;
+    border: none;
+    color: white;
+}
+
+#verificaBtn {
+    padding: 0.8em 2em;
+    border-radius: 8px;
+    border: none;
+}
+
+#risultato {
+    margin: 1em;
+    font-size: 16px;
+}
