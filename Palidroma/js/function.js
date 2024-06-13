@@ -1,13 +1,13 @@
 
-// verifica se una parola è palindroma
+// verificare se una parola è palindroma
 function verificaPalindroma() {
 
-    // prendiamo la parola inserita dall'utente e inseriamola in una variabile
+    // prendere la parola inserita dall'utente e inserirla in una variabile
     let parola = document.getElementById("inputParola").value;
-    // Creazione di una nuova stringa con i caratteri della parola originale in ordine inverso
+    // Creare una nuova stringa con i caratteri della parola originale in ordine inverso
     let parolaInversa = parola.split('').reverse().join('');
     
-    // Confronto tra la parola originale e quella invertita
+    // Confrontare tra la parola originale e quella invertita
     if (parola === parolaInversa) {       
       // Se sono uguali, la parola è palindroma e viene visualizzato il messaggio appropriato
       document.getElementById("risultato").innerHTML = "La parola è palindroma";
@@ -19,12 +19,12 @@ function verificaPalindroma() {
     console.log(parola, parolaInversa);
 }
 
-// verifica se un numero è pari o dispari
+// verificare se un numero è pari o dispari
 function isPari(num) {
   return num % 2 === 0;
 }
 
-// Genera un numero casuale tra 1 e 5
+// Generare un numero casuale tra 1 e 5
 function generaNumeroCasuale(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
